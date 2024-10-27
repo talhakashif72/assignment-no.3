@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment no.3</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+ul{color: darkcyan;
+background-color:blanchedalmond;
+}
+
+p{color:indianred;
+background-color: lightblue;
+}
+#unique{background-color:aquamarine;}
+
+.hightlight{color: brown;}
+
+#one{color:slategray; background-color:bisque
+    ;}
+
+
+    </style>
+</head>
+
+<body>
+    <img src="./upper.png" alt="abcd">
+
+
+
+
+    <!-- Basic Html Structure-->
+    <a id="top" href="#bottom">Go to Bottom</a>
+    <h1><i>Heading,Paragraph,Bold And Underline tags </i></h1>
+    <h4 style="color:green;"><u> Heading 1: This is Important of Learning Html</u></h4>
+
+    <p>Paragraph: Every HTML document starts with a declaration followed by a <b> (html)</b> tag, which contains a
+        <b>(head)</b> section and a <b>(body)</b>. The <b>(head)</b> includes metadata and links to stylesheets, while
+        the <b>(body)</b> contains the content that is displayed on the <i><u>webpage.</u></i>
+    </p>
+    <hr>
+
+
+
+
+    <!-- ordered list -->
+    <h1><i><u> Ordered List</u></i></h1>
+    <ol>
+        <li>Step 1: Preheat the oven to 350°F (175°C).</li>
+        <li>Step 2: Mix the dry ingredients in a bowl.</li>
+        <li>Step 3: Add the wet ingredients and stir until combined.</li>
+        <li>Step 4: Pour the batter into a greased baking pan.</li>
+        <li>Step 5: Bake for 30 minutes or until golden brown.</li>
+    </ol>
+    <hr>
+
+
+
+
+
+    <!-- un ordered list -->
+    <h1><i><u> Un-Ordered List</u></i></h1>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Cherries</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrots</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ul>
+        </li>
+        <li>Dairy
+            <ul>
+                <li>Milk</li>
+                <li>Cheese</li>
+                <li>Yogurt</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+
+
+
+
+
+    <!-- defination list -->
+    <h1><i><u>Defination List</u></i></h1>
+    <dl>
+        <dt class="hightlight" ><b>HTML</b></dt>
+        <dd>A markup language used for creating web pages.</dd>
+        <dt class="hightlight" > <b> CSS</b></dt>
+        <dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+        <dt class="hightlight" > <b> JavaScript</b></dt>
+        <dd>A programming language used for adding interactivity to web pages.</dd>
+    </dl>
+    <hr>
+
+
+
+
+
+
+    <!-- Table tages -->
+    <h1><i><u> Ranking Table </u></i></h1>
+    <table style="color:teal; border-color: red; background-color: black;" border="4">
+        <thead style="color:greenyellow;">
+            <tr>
+                <th>Players</th>
+                <th>Run Scored</th>
+                <th>Wickets Taken</th>
+                <th>Matches Played</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Talha</td>
+                <td>2500</td>
+                <td>100</td>
+                <td>200</td>
+            </tr>
+
+            <tr>
+                <td>Saim</td>
+                <td>1800</td>
+                <td>250</td>
+                <td>215</td>
+            </tr>
+
+            <tr>
+                <td>Amir</td>
+                <td>2300</td>
+                <td>210</td>
+                <td>200</td>
+            </tr>
+
+            <tr>
+                <td>Ahsaan</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <hr>
+
+
+
+    <!-- iframe for youtube -->
+    <h1><i><u>#Naveed Sarwar</u> </i></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hShESnWG06w?si=qWkX4Z8zSeFzubJP"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Naveed Sarwar</iframe>
+    <hr>
+
+
+
+
+
+    <br>
+    <br>
+    <!-- Uses of Anchor -->
+    <h1><i><u> Uses of Anchor</u></i></h1>
+    <a id="one" href="https://www.starkmeta.io/" target="_blank">Meta Ninja Strike</a>
+    <br>
+    <br>
+    <hr>
+
+
+
+
+    <!-- img tag -->
+    <h1><i><u> Image Tag</u></i></h1>
+    <img id="unique" src="./pick.jpg" alt="asdf" wirth="250px" height="200px">
+    <hr>
+
+
+
+
+
+    <br>
+    <br>
+    <!-- form -->
+    <h1><i><u>Contact Us</u></i></h1>
+    <form style="color:dodgerblue; background-color:springgreen;" >
+        <label for="name">Name:</label>
+        <input id="name" placeholder="Enter Name" type="text" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" placeholder="EnternEmail" type="email">
+        <br>
+
+        <label for="password">Password:</label>
+        <input id="password" placeholder="Enter Password" type="password">
+        <br>
+        <label for="range">Range:</label>
+        <input id="range" type="range">
+
+        <label for="checkbox">checkbox:</label>
+        <input id="checkbox" type="checkbox">
+        <br>
+        <label for="file">File</label>
+        <input id="file" type="file">
+        <br>
+        <label for="submit">Submit:</label>
+        <input id="submit" placeholder="Submit" type="button">
+        <br>
+    </form>
+    <hr>
+
+
+
+
+    <a id="bottom" href="#top"> Go to Top</a>
+
+
+</body>
+
+</html>
